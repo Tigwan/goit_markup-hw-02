@@ -26,7 +26,17 @@ list-style-type: none;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--color-dark);
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
   color: var(--color-text);
+}
+
+.link:active {
+  color: var(--color-primary-brand);
 }
 
 .logo {
@@ -49,6 +59,7 @@ list-style-type: none;
 
 .contacts {
   color: var(--color-text);
+  text-decoration: none;
 }
 
 .hero {
